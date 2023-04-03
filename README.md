@@ -23,7 +23,7 @@ Official Golang execution layer implementation of the Universal Unit Coin protoc
 
 ## Building from source Ubuntu 20.04
 
-Building `geth` requires both a Go (version 1.18 or later) and a C compiler. You can install
+Building `geth` requires both a Go (version 1.19 or later) and a C compiler. You can install
 them using your favourite package manager. 
 
 ### Setup Go Path
@@ -41,9 +41,9 @@ source ~/.profile
 
 ### Install Go
 ```shell
-wget https://go.dev/dl/go1.18.7.linux-amd64.tar.gz
-sudo tar -xvf go1.18.7.linux-amd64.tar.gz
-sudo mv go /usr/local && rm go1.18.7.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.19.7.linux-amd64.tar.gz
+sudo tar -xvf go1.19.7.linux-amd64.tar.gz
+sudo mv go /usr/local && rm go1.19.7.linux-amd64.tar.gz
 ```
 Check that it's installed
 ```shell
@@ -51,7 +51,7 @@ go version
 ```
 You should see something like this:
 ```shell
-go version go1.18.7 linux/amd64
+go version go1.19.7 linux/amd64
 ```
 
 Once the dependencies are installed, run
