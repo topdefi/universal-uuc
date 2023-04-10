@@ -22,8 +22,7 @@ import "github.com/ethereum/go-ethereum/common"
 // the main Ethereum network.
 var MainnetBootnodes = []string{
 	// Universal Unit Coin Go Bootnodes
-	"",
-	"",
+	"enode://c055783b13a7bebb49a97ed16b34d67ef303045b852a50c4d51f1847efa32d8c9968304fe1c8f26305f181b85022bb1ef95e8bbfaf1b1511139f1289d52eda63@31.220.63.193:30303",
 }
 
 // SepoliaBootnodes are the enode URLs of the P2P bootstrap nodes running on the
